@@ -5,7 +5,7 @@ from properites import *
 class View:
     def __init__(self):
         self.win = Tk()
-        self.win.configure(background="black")
+        self.win.configure(background="black", cursor="none")
         self.win.attributes("-fullscreen", True)
         self.win.title("pypong")
         self.pixel_matrix = []
